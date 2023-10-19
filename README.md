@@ -28,10 +28,16 @@ In this application was used:
   ```
 
 ## HTTP Methods:
+- ### Get one item, put and delete methods:
 ```
-/add
-/biblioteca
+
+/api/livros/{id}
 ```
+- ### Get all items and Post method:
+```
+/api/livros/
+```
+
 ## Database Acess:
 ```
 DATABASE: H2 EMBEDED
