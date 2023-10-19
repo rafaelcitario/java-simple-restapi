@@ -1,10 +1,9 @@
 package com.rafaelcitario.javasimplerestapi.repositories;
 
-import com.rafaelcitario.javasimplerestapi.entities.LivroEntity;
+import com.rafaelcitario.javasimplerestapi.entities.LivrosEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.stereotype.Repository;
 
-@EnableJpaRepositories
-public interface LivroRepository extends JpaRepository<LivroEntity, Long> {
-
+@Repository
+public interface LivroRepository extends JpaRepository<LivrosEntity, Long> {
 }
